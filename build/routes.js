@@ -8,10 +8,11 @@ function helloWorld(request, response) {
     var user = CreateUser_1.default({
         name: 'Cláudio',
         email: 'claudiocastro@acad.ifma.edu.br',
-        password: '123',
+        password: '123pass',
         techs: [
             'React',
-            { title: 'Node.js', experience: 60 }
+            'React Native',
+            { title: 'Node.js', experience: 75 }
         ]
     });
     return response.json(user);

@@ -6,6 +6,7 @@ function createUser(_a) {
         name: name,
         email: email,
         password: password,
+        techs: techs,
     };
     return user;
 }

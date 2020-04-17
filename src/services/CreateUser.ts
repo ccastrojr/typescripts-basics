@@ -17,6 +17,7 @@ export default function createUser({
     name,
     email,
     password,
+    techs,
   }
 
   return user;

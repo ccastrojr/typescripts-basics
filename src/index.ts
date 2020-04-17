@@ -3,7 +3,7 @@ import { helloWorld } from './routes';
 
 const app = express();
 
-app.get('/test', (req, res) => {
+app.get('/', (req, res) => {
   helloWorld(req, res);
 })
 
